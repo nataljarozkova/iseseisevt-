@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lumemm.lumememm1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame x:Name="hat1"
+                   BackgroundColor="Black"
+                   BorderColor="Black"
+                   Margin="170,100"
+                   Padding="25"/>
+            <Frame x:Name="hat2"
+                   BackgroundColor="Black"
+                   BorderColor="Black"
+                   Margin="130,-105"
+                   Padding="4"/>
+            <Frame x:Name="ball1"
+                 BackgroundColor="White"
+                 BorderColor="BlueViolet"
+                 Margin="170,100"
+                 Padding="20"
+                 CornerRadius="40"/>
+            <Frame x:Name="ball2"
+                 BackgroundColor="White"
+                 BorderColor="BlueViolet"
+                 Margin="150,-105"
+                 Padding="40"
+                 CornerRadius="70"/>
+            <Frame x:Name="ball3"
+                 BackgroundColor="White"
+                 BorderColor="BlueViolet"
+                 Margin="130,100"
+                 Padding="60"
+                 CornerRadius="100"/>
+            <StackLayout Orientation="Horizontal">
+                    <Button x:Name="Random_Button"
+                    Text="Случайный цвет"
+                            BackgroundColor="Purple"
+                    Clicked="Random_Button_Clicked"
+                    HorizontalOptions="FillAndExpand"/>
+                    <Button x:Name="Hide_Button"
+                    Text="Спрятать"
+                            BackgroundColor="Yellow"
+                    Clicked="Hide_Button_Clicked"        
+                    HorizontalOptions="FillAndExpand"/>
+                    <Button x:Name="Melt_Button"
+                    Text="Показать"
+                            BackgroundColor="Magenta"
+                    Clicked="Melt_Button_Clicked"
+                    HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <Button x:Name="TurnOver"
+                Text="Перевернуть"
+                        Clicked="TurnOver_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
