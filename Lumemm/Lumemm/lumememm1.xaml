@@ -35,17 +35,17 @@
             <StackLayout Orientation="Horizontal">
                     <Button x:Name="Random_Button"
                     Text="Случайный цвет"
-                            BackgroundColor="Purple"
+                    BackgroundColor="Purple"
                     Clicked="Random_Button_Clicked"
                     HorizontalOptions="FillAndExpand"/>
                     <Button x:Name="Hide_Button"
                     Text="Спрятать"
-                            BackgroundColor="Yellow"
+                    BackgroundColor="Yellow"
                     Clicked="Hide_Button_Clicked"        
                     HorizontalOptions="FillAndExpand"/>
                     <Button x:Name="Melt_Button"
                     Text="Показать"
-                            BackgroundColor="Magenta"
+                    BackgroundColor="Magenta"
                     Clicked="Melt_Button_Clicked"
                     HorizontalOptions="FillAndExpand"/>
                 </StackLayout>
